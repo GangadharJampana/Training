@@ -6,9 +6,9 @@ public class PhoneClass {
   private String company;
   
   public PhoneClass(double height,double width,String company){
-    height = height;
-    width = width;
-    company = company;
+    this.height = height;
+    this.width = width;
+    this.company = company;
     
   }
   
