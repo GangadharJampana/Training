@@ -1,7 +1,7 @@
 package nestedclasses;
 
 public class Test {
-  private int sdjfg=6;
+  
   public int a; 
   
 }
