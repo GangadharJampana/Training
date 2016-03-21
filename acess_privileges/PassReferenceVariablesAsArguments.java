@@ -16,7 +16,7 @@ public class PassReferenceVariablesAsArguments {
     int n;
     n = a.length;
     for (int i=0;i < n ; i++){
-      a[i] = a[i]+1;
+      a[i] = i+3;
       System.out.println(a[i]);
     }
   }

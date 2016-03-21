@@ -9,14 +9,14 @@ public class PassPrimitiveVariablesAsArguments {
     x = checkScopeByReturn(x);
     System.out.println(x);
   }
-  public static void checkScope(int a){
-    a=30;
-    System.out.println(a);
+  public static void checkScope(int x){
+    x=x+1;
+    System.out.println(x);
   }
-  public static int  checkScopeByReturn(int a){
-    a=60;
-    System.out.println(a);
-    return a;
+  public static int  checkScopeByReturn(int x){
+    x=60;
+    System.out.println(x);
+    return x;
   }
   
 }

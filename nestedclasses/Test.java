@@ -2,6 +2,7 @@ package nestedclasses;
 
 public class Test {
   
+  
   public int a; 
   
 }

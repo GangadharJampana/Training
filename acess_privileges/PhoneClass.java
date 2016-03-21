@@ -5,12 +5,12 @@ public class PhoneClass {
   private double width;
   private String company;
   
-  public PhoneClass(double height,double width,String company){
+  /*public PhoneClass(double height,double width,String company){
     this.height = height;
     this.width = width;
     this.company = company;
     
-  }
+  }*/
   
   public double getHeight(){
     return height;
