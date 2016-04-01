@@ -7,10 +7,10 @@ public class Validate {
    boolean st =false;
    try{
 
-  //loading drivers for mysql
+      //loading drivers for mysql
       Class.forName("com.mysql.jdbc.Driver");
 
-  //creating connection with the database 
+      //creating connection with the database 
       Connection con=DriverManager.getConnection
                      ("jdbc:mysql://localhost:3306/training","root","beehyv123");
       PreparedStatement ps =con.prepareStatement
